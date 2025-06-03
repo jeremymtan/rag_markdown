@@ -1,0 +1,152 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+.pytest_cache/
+.coverage
+.tox/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.ruff_cache/
+
+# Virtual Environments
+venv/
+env/
+ENV/
+.venv/
+.conda/
+*.virtualenv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.bak
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+*.env
+
+# Data Files (keeping markdown docs for the project)
+# *.csv  # Commented out to keep evaluation results
+*.xlsx
+*.xls
+# *.json  # Commented out to keep JSON data
+*.parquet
+*.pickle
+*.pkl
+*.h5
+*.hdf5
+
+# Log Files
+*.log
+logs/
+*.out
+*.err
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# Node.js / Next.js
+node_modules/
+.next/
+out/
+.cache/
+.nuxt/
+.npm/
+.yarn/
+*.tsbuildinfo
+next-env.d.ts
+
+# Build Outputs
+*.min.js
+*.min.css
+bundle.js
+bundle.css
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Vector Store / ML Models
+models/
+embeddings/
+checkpoints/
+*.bin
+*.onnx
+*.pt
+*.pth
+*.safetensors
+
+# Secrets
+secrets/
+.secrets/
+*.pem
+*.key
+*.crt
+
+# Temporary Files
+tmp/
+temp/
+*.tmp
+*.temp
+.cache/
+
+# Documentation Build
+docs/_build/
+site/
+
+# Testing
+htmlcov/
+.coverage.*
+coverage.xml
+*.cover
+test-results/
+playwright-report/
+
+
+ragas_evaluation_*.csv  
+!data/
+!data/docs/
+!data/handbook/
+!data/manual/
+!data/**/*.md

@@ -1,0 +1,9 @@
+qdrant-client
+cohere
+python-dotenv
+ollama
+requests
+fastapi
+uvicorn
+ragas
+openai

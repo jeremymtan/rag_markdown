@@ -42,7 +42,7 @@ jobs:
           echo "QDRANT_API_KEY=${{ secrets.QDRANT_API_KEY }}" >> .env
           echo "OPENAI_API_KEY=${{ secrets.OPENAI_API_KEY }}" >> .env
           echo "OLLAMA_MODEL=mistral" >> .env
-          echo "COLLECTION_NAME=tako_docs_ci" >> .env
+          echo "COLLECTION_NAME=tako_docs" >> .env
           echo "CHUNK_SIZE=1000" >> .env
           echo "CHUNK_OVERLAP=200" >> .env
       

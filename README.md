@@ -50,7 +50,7 @@ For this problem, I gathered documentation from various Github sources to simula
 
 ### Architecture
 
-![Architecture Diagram](https://github.com/user-attachments/assets/84a0642e-fd47-49b0-bdc4-0cc68ee2d375)
+![Architecture Diagram](https://github.com/user-attachments/assets/3e66f3e8-819e-4801-a56b-d9c56663a75b)
 
 ## Installation & Setup
 

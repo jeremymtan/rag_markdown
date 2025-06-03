@@ -107,8 +107,6 @@ def save_results(result):
     # print summary
     print("\nevaluation results:")
     print("-" * 30)
-
-    print("scores format issue - showing dataframe summary:")
     print(
         df[
             [

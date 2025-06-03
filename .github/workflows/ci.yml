@@ -41,19 +41,10 @@ jobs:
           echo "QDRANT_URL=${{ secrets.QDRANT_URL }}" >> .env
           echo "QDRANT_API_KEY=${{ secrets.QDRANT_API_KEY }}" >> .env
           echo "OPENAI_API_KEY=${{ secrets.OPENAI_API_KEY }}" >> .env
-          echo "GITHUB_TOKEN=${{ secrets.GITHUB_TOKEN }}" >> .env
           echo "OLLAMA_MODEL=mistral" >> .env
           echo "COLLECTION_NAME=tako_docs_ci" >> .env
           echo "CHUNK_SIZE=1000" >> .env
           echo "CHUNK_OVERLAP=200" >> .env
-      
-      - name: Collect documentation data
-        run: python data/data.py
-        continue-on-error: true
-      
-      - name: Ingest documents
-        run: python ingest.py
-        continue-on-error: true
       
       - name: evaluate
         run: make evaluate
@@ -61,7 +52,6 @@ jobs:
       
       - name: Upload results
         uses: actions/upload-artifact@v4
-        if: always()
         with:
           name: ragas-evaluation
           path: ragas_evaluation_*.csv
